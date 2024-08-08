@@ -1,4 +1,4 @@
--[livedemo](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
+- [livedemo](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
 # Interactive Quiz Game
 
 Welcome to the Interactive Quiz Game! This project is a web-based quiz game focused on web development topics. It is built using HTML, CSS, and JavaScript.
