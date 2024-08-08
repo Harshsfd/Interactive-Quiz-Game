@@ -1,12 +1,14 @@
-- [livedemo](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
 # Interactive Quiz Game
 
-Welcome to the Interactive Quiz Game! This project is a web-based quiz game focused on web development topics. It is built using HTML, CSS, and JavaScript.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
 
-## Table of Contents
+Welcome to the **Interactive Quiz Game**! This project is a web-based quiz game focused on web development topics, built using HTML, CSS, and JavaScript.
+
+## 📚 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Technology Used](#technology-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -27,9 +29,10 @@ The Interactive Quiz Game is designed to test your knowledge on various web deve
 - Option to retake the quiz
   
 ## Technology Used
-* [![HTML](assets/html-logo.png)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [![CSS](assets/css-logo.png)](https://developer.mozilla.org/en-US/docs/web/CSS)
-* [![JavaScript](assets/javascript-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+* [![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/en-US/docs/web/CSS)
+* [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   
 ## Installation
 
