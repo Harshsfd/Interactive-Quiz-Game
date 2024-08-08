@@ -25,7 +25,12 @@ The Interactive Quiz Game is designed to test your knowledge on various web deve
 - Timer for each question
 - Progress bar to show quiz completion
 - Option to retake the quiz
-
+  
+## Technology Used
+* [![HTML][HTML.html]][HTML-url]
+* [![CSS][CSS.css]][CSS-url]
+* [![JavaScript][JavaScript.js]]
+  
 ## Installation
 
 To get a local copy up and running, follow these simple steps:
