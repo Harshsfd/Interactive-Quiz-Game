@@ -1,3 +1,4 @@
+-[livedemo](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
 # Interactive Quiz Game
 
 Welcome to the Interactive Quiz Game! This project is a web-based quiz game focused on web development topics. It is built using HTML, CSS, and JavaScript.
@@ -31,12 +32,12 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/interactive-quiz-game.git
+    git clone https://github.com/harshsfd/Task1-Interactive-Quiz-Game
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd interactive-quiz-game
+    cd Task1-Interactive-Quiz-Game
     ```
 
 3. **Open `index.html` in your browser to start the game.**
