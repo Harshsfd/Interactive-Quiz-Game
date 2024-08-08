@@ -1,8 +1,8 @@
-# Interactive Quiz Game
+# Interactive Quiz Game 🎮
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
 
-Welcome to the **Interactive Quiz Game**! This project is a web-based quiz game focused on web development topics, built using HTML, CSS, and JavaScript.
+Welcome to the **Interactive Quiz Game**! 🚀 This project is a web-based quiz game designed to test your knowledge on various web development topics. Built with HTML, CSS, and JavaScript, it's both engaging and educational.
 
 ## 📚 Table of Contents
 
@@ -17,17 +17,17 @@ Welcome to the **Interactive Quiz Game**! This project is a web-based quiz game 
 
 ## Introduction
 
-The Interactive Quiz Game is designed to test your knowledge on various web development topics. It features a dynamic interface, real-time feedback, and a scoring system to track your progress.
+The Interactive Quiz Game challenges your web development knowledge with a **dynamic interface**, **real-time feedback**, and a **scoring system** to track your progress.
 
 ## Features
 
-- Dynamic question and answer display
-- Real-time feedback on answers
-- Score tracking
-- Timer for each question
-- Progress bar to show quiz completion
-- Option to retake the quiz
-  
+- 🌟 **Dynamic Question and Answer Display**: Interact with questions and answers in real-time.
+- 🕵️ **Real-Time Feedback**: Instant feedback on your answers.
+- 🏆 **Score Tracking**: Keep track of your performance.
+- ⏳ **Timer for Each Question**: Manage your time effectively.
+- 📊 **Progress Bar**: See how much of the quiz you’ve completed.
+- 🔄 **Retake the Quiz**: Start the quiz again to improve your score.
+
 ## Technology Used
 
 * [![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -60,7 +60,7 @@ To get a local copy up and running, follow these simple steps:
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+**Contributions are what make the open-source community amazing!** 🌟 Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -74,5 +74,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-- [othneildrew's Best-README-Template](https://github.com/othneildrew/Best-README-Template) for the README structure inspiration.
-- [MDN Web Docs](https://developer.mozilla.org/) for web development resources and documentation.
+- **[othneildrew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)** for the README structure inspiration.
+- **[MDN Web Docs](https://developer.mozilla.org/)** for web development resources and documentation.
