@@ -28,16 +28,8 @@ The Interactive Quiz Game is designed to test your knowledge on various web deve
   
 ## Technology Used
 * [![HTML][HTML.html]][HTML-url]
-[Html.com]: https://img.shields.io/badge/HTML-FF2D20?style=for-thebadge&logo=html&logoColor=white
-[HTML-url]: https://html.com 
-
 * [![CSS][CSS.css]][CSS-url]
-[CSS.com]: https://img.shields.io/badge/css-0769AD?style=for-the-badge&logo=css&logoColor=white
-[CSS-url]: https://html.com 
-
 * [![JavaScript][JavaScript.js]]
-[JavaScript.js]: https://img.shields.io/badge/JavaScript.js-35495E?style=for-the-badge&logo=JavaScriptdotjs&logoColor=4FC08D
-[JavaScript-url]: https://JavaScript.com
   
 ## Installation
 
@@ -81,3 +73,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - [othneildrew's Best-README-Template](https://github.com/othneildrew/Best-README-Template) for the README structure inspiration.
 - [MDN Web Docs](https://developer.mozilla.org/) for web development resources and documentation.
+
+
+## Technology Used
+[Html.com]: https://img.shields.io/badge/HTML-FF2D20?style=for-thebadge&logo=html&logoColor=white
+[HTML-url]: https://html.com/
+[CSS.com]: https://img.shields.io/badge/css-0769AD?style=for-the-badge&logo=css&logoColor=white
+[CSS-url]: https://css.com/ 
+[JavaScript.js]: https://img.shields.io/badge/JavaScript.js-35495E?style=for-the-badge&logo=JavaScriptdotjs&logoColor=4FC08D
+[JavaScript-url]: https://JavaScript.com/
