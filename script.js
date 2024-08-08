@@ -6,6 +6,7 @@ const timerElement = document.getElementById('timer');
 const nextButton = document.getElementById('next-button');
 const resultContainer = document.getElementById('result-container');
 const resultMessage = document.getElementById('result-message');
+const startButton = document.getElementById('start-button'); // Add a start button
 
 const questions = [
     {
@@ -188,47 +189,51 @@ const questions = [
             { text: "splice()", correct: false }
         ]
     },
-    {
-        question: "Which CSS property is used to change the background color of an element?",
-        answers: [
-            { text: "background-color", correct: true },
-            { text: "bgcolor", correct: false },
-            { text: "color", correct: false },
-            { text: "background", correct: false }
-        ]
-    },
-    {
-        question: "How do you include comments in CSS?",
-        answers: [
-            { text: "/* This is a comment */", correct: true },
-            { text: "// This is a comment", correct: false },
-            { text: "<!-- This is a comment -->", correct: false },
-            { text: "# This is a comment", correct: false }
-        ]
-    },
-    {
-        question: "Which HTML attribute specifies the URL of an image?",
-        answers: [
-            { text: "src", correct: true },
-            { text: "href", correct: false },
-            { text: "alt", correct: false },
-            { text: "link", correct: false }
-        ]
-    }
+    // {
+    //     question: "Which CSS property is used to change the background color of an element?",
+    //     answers: [
+    //         { text: "background-color", correct: true },
+    //         { text: "bgcolor", correct: false },
+    //         { text: "color", correct: false },
+    //         { text: "background", correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "How do you include comments in CSS?",
+    //     answers: [
+    //         { text: "/* This is a comment */", correct: true },
+    //         { text: "// This is a comment", correct: false },
+    //         { text: "<!-- This is a comment -->", correct: false },
+    //         { text: "# This is a comment", correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Which HTML attribute specifies the URL of an image?",
+    //     answers: [
+    //         { text: "src", correct: true },
+    //         { text: "href", correct: false },
+    //         { text: "alt", correct: false },
+    //         { text: "link", correct: false }
+    //     ]
+    // }
 ];
 
 let currentQuestionIndex = 0;
 let score = 0;
 let timer;
-let timeLeft = 25 * 60; // 25 minutes in seconds
+let timeLeft = 20 * 60; // 20 minutes in seconds
+
+startButton.addEventListener('click', startGame);
 
 function startGame() {
     currentQuestionIndex = 0;
     score = 0;
-    timeLeft = 25 * 60; // Reset timer to 25 minutes
+    timeLeft = 20 * 60; // Reset timer to 20 minutes
     nextButton.classList.add('hide');
     resultContainer.classList.add('hide');
     questionContainer.classList.remove('hide');
+    startButton.classList.add('hide'); // Hide the start button after game starts
+    
     showQuestion(questions[currentQuestionIndex]);
     startTimer();
 }
@@ -243,6 +248,7 @@ function showQuestion(question) {
         button.addEventListener('click', () => selectAnswer(answer));
         answerButtons.appendChild(button);
     });
+    nextButton.classList.remove('hide');
 }
 
 function selectAnswer(answer) {
@@ -254,14 +260,13 @@ function selectAnswer(answer) {
         feedback.innerText = 'Wrong!';
     }
     scoreElement.innerText = score;
-    nextButton.classList.remove('hide');
+    setTimeout(nextQuestion, 100); // Delay nextQuestion by 1 second
 }
 
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         showQuestion(questions[currentQuestionIndex]);
-        nextButton.classList.add('hide');
     } else {
         endGame();
     }
@@ -285,11 +290,10 @@ function endGame() {
     nextButton.classList.add('hide');
     resultContainer.classList.remove('hide');
     if (score >= 15) {
-        resultMessage.innerText = `Congratulations! Your final score is ${score}. You have passed the test.`;
+        resultMessage.innerText = `Congratulations! Your final score is ${score}/20. You have passed the test.`;
     } else {
-        resultMessage.innerText = `Better luck next time. Your final score is ${score}.`;
+        resultMessage.innerText = `Better luck next time. Your final score is ${score}/20.`;
     }
+    clearInterval(timer); // Stop the timer
+    retakeButton.classList.remove('hide'); // Show the retake button
 }
-
-startGame();
-
