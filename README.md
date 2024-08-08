@@ -28,8 +28,16 @@ The Interactive Quiz Game is designed to test your knowledge on various web deve
   
 ## Technology Used
 * [![HTML][HTML.html]][HTML-url]
+[Html.com]: https://img.shields.io/badge/HTML-FF2D20?style=for-thebadge&logo=html&logoColor=white
+[HTML-url]: https://html.com 
+
 * [![CSS][CSS.css]][CSS-url]
+[CSS.com]: https://img.shields.io/badge/css-0769AD?style=for-the-badge&logo=css&logoColor=white
+[CSS-url]: https://html.com 
+
 * [![JavaScript][JavaScript.js]]
+[JavaScript.js]: https://img.shields.io/badge/JavaScript.js-35495E?style=for-the-badge&logo=JavaScriptdotjs&logoColor=4FC08D
+[JavaScript-url]: https://JavaScript.com
   
 ## Installation
 
