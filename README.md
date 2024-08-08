@@ -27,9 +27,9 @@ The Interactive Quiz Game is designed to test your knowledge on various web deve
 - Option to retake the quiz
   
 ## Technology Used
-* [![HTML][HTML.html]][HTML-url]
-* [![CSS][CSS.css]][CSS-url]
-* [![JavaScript][JavaScript.js]]
+* [![HTML](assets/html-logo.png)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [![CSS](assets/css-logo.png)](https://developer.mozilla.org/en-US/docs/web/CSS)
+* [![JavaScript](assets/javascript-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   
 ## Installation
 
