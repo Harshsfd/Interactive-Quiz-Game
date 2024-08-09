@@ -10,6 +10,7 @@ const startButton = document.getElementById('start-button'); // Add a start butt
 
 const questions = [
     {
+        "1",
         question: "What does HTML stand for?",
         answers: [
             { text: "Hypertext Markup Language", correct: true },
@@ -21,8 +22,8 @@ const questions = [
     {
         question: "What does CSS stand for?",
         answers: [
-            { text: "Cascading Style Sheets", correct: true },
             { text: "Computer Style Sheets", correct: false },
+            { text: "Cascading Style Sheets", correct: true },
             { text: "Colorful Style Sheets", correct: false },
             { text: "Creative Style Sheets", correct: false }
         ]
@@ -39,28 +40,28 @@ const questions = [
     {
         question: "Which property is used to change the font of an element in CSS?",
         answers: [
-            { text: "font-family", correct: true },
             { text: "font-style", correct: false },
             { text: "font-size", correct: false },
+            { text: "font-family", correct: true },
             { text: "text-font", correct: false }
         ]
     },
     {
         question: "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
         answers: [
-            { text: "alt", correct: true },
             { text: "src", correct: false },
             { text: "title", correct: false },
+            { text: "alt", correct: true },
             { text: "longdesc", correct: false }
         ]
     },
     {
         question: "What does JavaScript use to declare variables?",
         answers: [
-            { text: "var, let, const", correct: true },
             { text: "int, float, char", correct: false },
             { text: "define, declare", correct: false },
-            { text: "new, old", correct: false }
+            { text: "new, old", correct: false },
+            { text: "var, let, const", correct: true }
         ]
     },
     {
@@ -75,18 +76,18 @@ const questions = [
     {
         question: "Which tag is used to create a hyperlink in HTML?",
         answers: [
-            { text: "<a>", correct: true },
             { text: "<link>", correct: false },
             { text: "<href>", correct: false },
+            { text: "<a>", correct: true },
             { text: "<url>", correct: false }
         ]
     },
     {
         question: "What is the default display value of a block-level element?",
         answers: [
-            { text: "block", correct: true },
             { text: "inline", correct: false },
             { text: "flex", correct: false },
+            { text: "block", correct: true },
             { text: "none", correct: false }
         ]
     },
@@ -102,17 +103,17 @@ const questions = [
     {
         question: "How can you include external JavaScript code in an HTML file?",
         answers: [
-            { text: "<script src='file.js'></script>", correct: true },
             { text: "<js src='file.js'></js>", correct: false },
             { text: "<link src='file.js' type='text/javascript'>", correct: false },
-            { text: "<import src='file.js'>", correct: false }
+            { text: "<import src='file.js'>", correct: false },
+            { text: "<script src='file.js'></script>", correct: true }
         ]
     },
     {
         question: "What method is used to remove the last element from an array in JavaScript?",
         answers: [
-            { text: "pop()", correct: true },
             { text: "shift()", correct: false },
+            { text: "pop()", correct: true },
             { text: "push()", correct: false },
             { text: "splice()", correct: false }
         ]
@@ -129,8 +130,8 @@ const questions = [
     {
         question: "Which HTML tag is used to define a list item?",
         answers: [
-            { text: "<li>", correct: true },
             { text: "<item>", correct: false },
+            { text: "<li>", correct: true },
             { text: "<list>", correct: false },
             { text: "<ul>", correct: false }
         ]
@@ -146,9 +147,9 @@ const questions = [
     },
     {
         question: "How can you create a comment in JavaScript?",
-        answers: [
-            { text: "// This is a comment", correct: true },
+        answers: [ 
             { text: "<!-- This is a comment -->", correct: false },
+            { text: "// This is a comment", correct: true },
             { text: "/* This is a comment */", correct: false },
             { text: "# This is a comment", correct: false }
         ]
@@ -156,9 +157,9 @@ const questions = [
     {
         question: "Which CSS property is used to change the text color?",
         answers: [
-            { text: "color", correct: true },
             { text: "text-color", correct: false },
             { text: "font-color", correct: false },
+            { text: "color", correct: true },
             { text: "text-style", correct: false }
         ]
     },
@@ -174,17 +175,17 @@ const questions = [
     {
         question: "What is the purpose of the 'data-' attribute in HTML?",
         answers: [
-            { text: "To store custom data in an element", correct: true },
             { text: "To define a style for an element", correct: false },
             { text: "To include external resources", correct: false },
             { text: "To define element IDs", correct: false }
+            { text: "To store custom data in an element", correct: true }
         ]
     },
     {
         question: "Which method in JavaScript is used to add an element to the end of an array?",
         answers: [
-            { text: "push()", correct: true },
             { text: "pop()", correct: false },
+            { text: "push()", correct: true },
             { text: "unshift()", correct: false },
             { text: "splice()", correct: false }
         ]
