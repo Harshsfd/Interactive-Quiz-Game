@@ -10,7 +10,6 @@ const startButton = document.getElementById('start-button'); // Add a start butt
 
 const questions = [
     {
-        "1",
         question: "What does HTML stand for?",
         answers: [
             { text: "Hypertext Markup Language", correct: true },
@@ -177,7 +176,7 @@ const questions = [
         answers: [
             { text: "To define a style for an element", correct: false },
             { text: "To include external resources", correct: false },
-            { text: "To define element IDs", correct: false }
+            { text: "To define element IDs", correct: false },
             { text: "To store custom data in an element", correct: true }
         ]
     },
