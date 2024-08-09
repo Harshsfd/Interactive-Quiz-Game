@@ -6,7 +6,8 @@ const timerElement = document.getElementById('timer');
 const nextButton = document.getElementById('next-button');
 const resultContainer = document.getElementById('result-container');
 const resultMessage = document.getElementById('result-message');
-const startButton = document.getElementById('start-button'); // Add a start button
+const startButton = document.getElementById('start-button');
+const retakeButton = document.getElementById('retake-button'); // Define retake button
 
 const questions = [
     {
@@ -260,7 +261,8 @@ function selectAnswer(answer) {
         feedback.innerText = 'Wrong!';
     }
     scoreElement.innerText = score;
-    setTimeout(nextQuestion, 100); // Delay nextQuestion by 1 second
+    nextButton.classList.remove('hide');
+    setTimeout(nextQuestion, 1000); // Delay nextQuestion by 1 second
 }
 
 function nextQuestion() {
@@ -297,3 +299,11 @@ function endGame() {
     clearInterval(timer); // Stop the timer
     retakeButton.classList.remove('hide'); // Show the retake button
 }
+
+// Add functionality to the retake button
+retakeButton.addEventListener('click', () => {
+    startButton.classList.remove('hide');
+    resultContainer.classList.add('hide');
+    scoreElement.innerText = '0'; // Reset the score display
+    retakeButton.classList.add('hide');
+});
