@@ -1,6 +1,6 @@
-# Extion Infotech Task 1 - Interactive Quiz Game 🎮
+# Interactive Quiz Game 🎮
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/Task1-Interactive-Quiz-Game/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/Interactive-Quiz-Game/)
 
 Welcome to the **Interactive Quiz Game**! 🚀 This project is a web-based quiz game designed to test your knowledge on various web development topics. Built with HTML, CSS, and JavaScript, it's both engaging and educational.
 
